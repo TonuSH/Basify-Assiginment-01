@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nesting and Indentation</title>
+</head>
+<body>
+    <!--  ul start -->
+    <ul>
+        <!-- 1st li of ul start -->
+        <li>A</li>
+        <!-- 1st li of ul end -->
+
+        <!-- 2nd li of ul start -->
+        <li>
+            B
+            <!-- ol of 2nd li start -->
+            <ol>
+                <!-- 1st li of ol start -->
+                <li>B1</li>
+                <!-- 1st li of ol end -->
+
+                <!-- 2nd li of ol start -->
+                <li>
+                    B2
+                    <ul>
+                        <li>
+                            B2a
+                            <ul>
+                                <li>B2aa</li>
+                                <li>B2ab</li>
+                            </ul>
+                        </li>
+                        <li>B2b</li>
+                        <li>B2c</li>
+                    </ul>
+                </li>
+                <!-- 2nd li of ol end -->
+
+                <!-- 3rd li of ol start -->
+                <li>
+                    B3
+                    <ol>
+                        <li>B31</li>
+                        <li>B32</li>
+                    </ol>
+                </li>
+                <!-- 3rd li of ol end -->
+            </ol>
+            <!-- ol of 2nd li end -->
+        </li>
+        <!-- 2nd li of ul end -->
+
+        <!-- 3rd li of ul start -->
+        <li>C</li>
+        <!-- 3rd li of ul end -->
+    </ul>
+    <!-- ul end -->
+</body>
+</html>
